@@ -1,0 +1,21 @@
+{
+  "name": "fingerprint-widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "7.1.0",
+    "@babel/runtime": "7.1.2",
+    "fingerprintjs2": "1.8.1",
+    "localforage": "1.7.2"
+  },
+  "devDependencies": {
+    "@types/fingerprintjs2": "1.5.2",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
